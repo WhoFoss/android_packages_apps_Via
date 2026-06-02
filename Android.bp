@@ -1,0 +1,12 @@
+android_app_import {
+    name: "Via",
+    apk: "Via.apk",
+    presigned: true, 
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    overrides: ["Browser2","Jelly"],
+}
+
